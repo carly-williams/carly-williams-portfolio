@@ -203,7 +203,7 @@ div, section {
 	}
 }
 
-@media screen and (min-resolution: 2dppx) { 
+@media screen and (max-width: 350px) and (min-resolution: 2dppx) { 
 	.content > .piece {
 		width: 77%;
 	}

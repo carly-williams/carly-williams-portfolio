@@ -131,6 +131,24 @@ div, section {
 	padding-top: 14px;
 }
 
+.hidden {
+	display: none;
+}
+
+footer {
+	background-color: #FF8413;
+}
+
+.linkedin-icon {
+	vertical-align: -webkit-baseline-middle;
+}
+
+.content-contact {
+	text-align: right;
+  padding: 3px;
+  padding-right: 5px;
+}
+
 @media only screen and (max-width: 825px) {
 	.content > .piece {
 		width: 40%;
@@ -203,7 +221,9 @@ div, section {
 	}
 }
 
-@media screen and (max-width: 350px) and (min-resolution: 2dppx) { 
+
+/*
+@media screen and (min-resolution: 2dppx) { 
 	.content > .piece {
 		width: 77%;
 	}
@@ -211,7 +231,7 @@ div, section {
 		font-size: 98px;
 	}
 }
-/*
+
 @media handheld and (min-width: 1000px) and (max-width: 2500px) {
 	.content > .piece {
 		width: 40%;
